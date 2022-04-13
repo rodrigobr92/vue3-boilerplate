@@ -40,7 +40,7 @@ export default ({ command }: ConfigEnv): UserConfigExport => {
         dts: true, // generate TypeScript declaration
       }),
       quasar({
-        sassVariables: 'src/shared/styles/quasar-variables.scss'
+        sassVariables: 'src/shared/styles/quasar-variables.sass'
       }),
     ],
     test: {
